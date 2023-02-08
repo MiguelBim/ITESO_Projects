@@ -1,3 +1,3 @@
 # Students Projects 
 
-Projects from all courses
+Projects from all courses.
