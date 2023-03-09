@@ -24,3 +24,18 @@ aws dynamodb create-table --table-name face_recognition --attribute-definitions 
 ```bash
 cd C:\Images
 ```
+
+#### (5) Review files
+```bash
+dir
+```
+
+#### (6) Install Boto3 
+```bash
+pip install boto3
+```
+
+#### (7) Run Python file
+```bash
+python putimages.py.txt
+```
