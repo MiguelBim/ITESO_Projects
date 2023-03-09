@@ -10,9 +10,9 @@ https://awscli.amazonaws.com/AWSCLIV2.msi
 aws configure list
 ```
 
-()
+(2)
 ```bash
-
+aws rekognition create-collection --collection-id facerecognition_collection --region us-east-1
 ```
 
 ()
