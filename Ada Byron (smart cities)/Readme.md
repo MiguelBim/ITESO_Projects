@@ -44,3 +44,23 @@ python putimages.py.txt
 ```bash
 SELECT * FROM face_recognition;
 ```
+
+#### (9) Move to test file
+```bash
+cd C:\Test
+```
+
+#### (10) Review files
+```bash
+dir
+```
+
+#### (11) Install Pillow Python library
+```bash
+pip install Pillow
+```
+
+#### (12) Run the application
+```bash
+python testing.py.txt
+```
