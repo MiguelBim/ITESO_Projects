@@ -39,3 +39,8 @@ pip install boto3
 ```bash
 python putimages.py.txt
 ```
+
+#### (8) DynamoDB (PartiQL) query
+```bash
+SELECT * FROM face_recognition;
+```
