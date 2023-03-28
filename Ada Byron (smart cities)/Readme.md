@@ -45,7 +45,7 @@ python putimages.py.txt
 SELECT * FROM face_recognition;
 ```
 
-#### (9) Move to test file
+#### (9) Move to the test file
 ```bash
 cd C:\Test
 ```
