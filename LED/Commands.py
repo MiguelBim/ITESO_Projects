@@ -7,7 +7,7 @@ from pandas import Series, DataFrame
 import pandas as pd
 
 # The primary data structures in pandas are implemented as two classes:
-#   DataFrame:  which you can imagine as a relational data table, with rows and named columns.
+#   DataFrame:  which you can imagine as a relational data table, with rows and named columns as part of its structure.
 #   Series:     which is a single column.
 # A DataFrame contains one or more Series and a name for each Series.
 # The data frame is a commonly used abstraction for data manipulation. Similar implementations exist in Spark and R.
