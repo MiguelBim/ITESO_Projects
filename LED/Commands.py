@@ -52,7 +52,7 @@ data_1 = {'estado' : ['JA', 'CO', 'MX', 'JA', 'LA'],
 df_1 = DataFrame(data_1)
 print(df_1)
 
-# Create a DataFrame specifying a sequence of columns:
+# Create a DataFrame specifying a sequence of defined columns:
 df_2 = DataFrame(data_1, columns=['año', 'estado', 'version'])
 print(df_2)
 
