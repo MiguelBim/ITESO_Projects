@@ -40,7 +40,7 @@ dict_1 = {'matematicas' : 100, 'quimica' : 200, 'logica' : 300}
 ser_3 = Series(dict_1)
 print(ser_3)
 
-# DataFrame
+# DataFrame:
 # A DataFrame is a tabular data structure containing an ordered collection of columns.
 # Each column can have a different type.
 # DataFrames have both row and column indices and is analogous to a dict of Series.
