@@ -43,7 +43,7 @@ print(ser_3)
 # DataFrame:
 # A DataFrame is a tabular data structure containing an ordered collection of columns.
 # Each column can have a different type.
-# DataFrames have both row and column indices and is analogous to a dict of Series.
+# DataFrames have both row and column indices and which are analogous to a dict of Series.
 # Row and column operations are treated roughly symmetrically.
 
 data_1 = {'estado' : ['JA', 'CO', 'MX', 'JA', 'LA'],
