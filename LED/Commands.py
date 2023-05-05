@@ -64,7 +64,7 @@ df_4 = df_3.rename(columns={"newColumn": "rank"})
 print(df_3)
 print(df_4)
 
-# Use inplace to do it in the actual DF
+# Use inplace to do it in the actual 
 df_3.rename(columns={"newColumn": "rank"}, inplace = True)
 print(df_3)
 
