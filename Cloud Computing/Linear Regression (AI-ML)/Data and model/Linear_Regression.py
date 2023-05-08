@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-
+# Spark session creation
 def get_spark_session():
     return SparkSession.builder.appName("LINEAR_REGRESSION").getOrCreate()
 
