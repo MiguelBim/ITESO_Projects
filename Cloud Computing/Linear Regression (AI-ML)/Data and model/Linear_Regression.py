@@ -68,6 +68,7 @@ def predict_values(processed_df):
     month_id_array = processed_df.select('MONTH_ID').rdd.flatMap(lambda x: x).collect()
     users_array = processed_df.select('TOTAL_USERS').rdd.flatMap(lambda x: x).collect()
 
+    # Independent variable reshape
     independet_variable = np.array(month_id_array).reshape((-1,1))
     dependet_variable = np.array(users_array)
 
