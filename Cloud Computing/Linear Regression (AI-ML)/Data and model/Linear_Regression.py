@@ -12,7 +12,7 @@ import numpy as np
 def get_spark_session():
     return SparkSession.builder.appName("LINEAR_REGRESSION").getOrCreate()
 
-
+# Input data
 def read_csv(spark, path):
     return spark.read.format("csv").option("header", "true").option("inferSchema","true").load(path)
 
