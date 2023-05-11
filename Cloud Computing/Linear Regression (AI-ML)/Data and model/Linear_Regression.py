@@ -97,7 +97,7 @@ def main():
 
     spark = get_spark_session()
 
-    # DATASET PRE-PROCESSING
+    # DATASET PRE-PROCESSING (INPUT)
     original_df = read_csv(spark, "/Users/miguelojeda/Google Drive/Spark/data_to_be_analyzed/users_per_month.csv") # USE YOUR OWN FILE LOCATION
     processed_df = original_df.drop("MONTH").withColumnRenamed("ID", "MONTH_ID")
 
