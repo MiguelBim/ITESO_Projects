@@ -2,6 +2,8 @@
 # pandas is a column-oriented data analysis API. It's a great tool for handling and analyzing input data.
 # Many ML frameworks support pandas data structures as inputs.
 
+# The intention of this session is to e
+
 # show how to import the pandas API
 from pandas import Series, DataFrame
 import pandas as pd
