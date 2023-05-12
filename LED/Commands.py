@@ -132,7 +132,7 @@ print()
 for index, row in estudiantes_df.iterrows():
     print(type(row))
 
-#iterate over a dataframe
+#iterate over a dataframe, column -> row
 for index, row in estudiantes_df.iterrows():
     for column_name, value in row.iteritems():
         print(column_name)
