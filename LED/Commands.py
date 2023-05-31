@@ -15,7 +15,7 @@ import pandas as pd
 # A DataFrame contains one or more Series and a name for each Series.
 # The data frame is a commonly used abstraction for data manipulation. Similar implementations exist in Spark and R.
 
-ser_1 = Series([1, 1, 2, -3, -5, 8, 13])
+ser_1 = Series([1, 1, 2, -3, -5, 8, 13, 0, 21])
 print(ser_1)
 # Index objects are immutable and hold the axis labels and metadata such as names and axis names.
 
