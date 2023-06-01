@@ -39,7 +39,7 @@ print(ser_2[ser_2 > 0])
 print(ser_2 * 2)
 
 # Create a series by passing in a dict:
-dict_1 = {'matematicas' : 100, 'quimica' : 200, 'logica' : 300}
+dict_1 = {'matematicas' : 100, 'quimica' : 200, 'logica' : 300, 'fisica' : 310}
 ser_3 = Series(dict_1)
 print(ser_3)
 
