@@ -1,4 +1,4 @@
-# ITESO - Ada Byron 2023 (Ingeniería en Sistemas Computacionales)
+# ITESO - Ada Byron (Ingeniería en Sistemas Computacionales)
 
 → Download and run the AWS CLI MSI installer for Windows (64-bit) (ec2 Instance - Bastion)
 ```bash
